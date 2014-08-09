@@ -14,7 +14,7 @@ go
 
 */
 
-/*Step 2
+/*Step 2-- Prueba de git felipe
 EXECUTE msdb.dbo.sysmail_add_account_sp
 @account_name = 'TestMailAccount',
 @description = 'Mail account for Database Mail',
@@ -26,7 +26,7 @@ EXECUTE msdb.dbo.sysmail_add_account_sp
 
 
 
-/* modificacion de una cuenta existente.
+/* modificacion de una cuenta existente.Prueba de git felipe
 
 EXECUTE msdb.dbo.sysmail_update_account_sp
 @account_name = 'Andromeda Mail',
