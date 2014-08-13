@@ -5,7 +5,7 @@ ALTER DATABASE Soporte
 SET RECOVERY SIMPLE;
 GO
 -- Shrink the truncated log file to 1 MB.
-DBCC SHRINKFILE (KIXVER_Log, 1);
+DBCC SHRINKFILE (KIXVER_Log, 2);
 GO
 -- Reset the database recovery model.
 ALTER DATABASE Soporte
